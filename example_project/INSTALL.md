@@ -41,3 +41,16 @@ Python Path:
 
 ['/home/demo/django-photologue/example_project',
  '/home/demo/.virtualenvs/djangodev/bin',
+
+
+
+python manage.py runserver
+python manage.py collectstatic
+python manage.py migrate
+python manage.py createsuperuser
+
+
+
+拷贝media文件到特定的KS3 bucket.
+
+修改media
